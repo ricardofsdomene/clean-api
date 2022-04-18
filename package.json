@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsnd --ignore-watch node_modules --respawn --transpile-only src/server.ts",
+    "dev": "tsnd --inspect --ignore-watch node_modules --respawn --transpile-only src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
